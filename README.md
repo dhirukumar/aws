@@ -120,16 +120,16 @@ Archival service - Glacier : Amazon Glacier is extremely low cost, secure, and d
 
    1) Connect to your Amazon Linux Instance
       
-              - ssh -i "youkeyfile.pem" ec2-user@{instancePublicIP}
+               ssh -i "youkeyfile.pem" ec2-user@{instancePublicIP}
    3) Update the Package Repository
       
-              - sudo dnf update -y
+              sudo dnf update -y
    5) Install Nginx
       
-           - sudo dnf install nginx -y
+           sudo dnf install nginx -y
    7) Start Nginx Once the installation is complete, start the Nginx service using the following command:
       
-            - sudo systemctl start nginx
+            sudo systemctl start nginx
      
 3) creat a traffic group
 4) make a load balencer in which you add traffic group and also check the helth condition 
