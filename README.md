@@ -121,6 +121,7 @@ Archival service - Glacier : Amazon Glacier is extremely low cost, secure, and d
    1) Connect to your Amazon Linux Instance
       
                ssh -i "youkeyfile.pem" ec2-user@{instancePublicIP}
+      instancepublicIP change with your public IP
    3) Update the Package Repository
       
               sudo dnf update -y
