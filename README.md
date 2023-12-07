@@ -131,6 +131,7 @@ Archival service - Glacier : Amazon Glacier is extremely low cost, secure, and d
    7) Start Nginx Once the installation is complete, start the Nginx service using the following command:
       
             sudo systemctl start nginx
+     ##### if ngnix not showing than change inbound to all trafic and my ip in costom box
      
 3) creat a traffic group
 4) make a load balencer in which you add traffic group and also check the helth condition 
